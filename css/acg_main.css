@@ -1,0 +1,6 @@
+/* acg_main.css */
+@charset "utf-8";
+@import url("./src/acg_main_base.css");
+@import url("./src/acg_main_pc.css");
+@import url("./src/acg_main_tablet.css");
+@import url("./src/acg_main_mobile.css");
