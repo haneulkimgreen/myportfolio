@@ -1,0 +1,20 @@
+/* yg_process.css */
+body,html{width: 100%; height: 100%;}
+#wrap{width: 100%; height: 100%; background-color: #acd;}
+.bgi{background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain; 
+     width: 100%; height: 100%; background-color: #F0F2F4; border-top: 2px solid #F0F2F4;}
+#process_01{border-top:0; background-image: url("../img/yg_process_01.jpg");}
+#process_02{background-image: url("../img/yg_process_02.jpg");}
+#process_03{background-image: url("../img/yg_process_03.jpg");}
+#process_04{background-image: url("../img/yg_process_04.jpg");}
+#process_05{background-image: url("../img/yg_process_05.jpg");}
+#process_06{background-image: url("../img/yg_process_06.jpg");}
+#process_07{background-image: url("../img/yg_process_07.jpg");}
+#process_08{background-image: url("../img/yg_process_08.jpg");}
+#process_09{background-image: url("../img/yg_process_09.jpg");}
+#process_10{background-image: url("../img/yg_process_10.jpg");}
+#process_11{background-image: url("../img/yg_process_11.jpg");}
+#process_12{background-image: url("../img/yg_process_12.jpg");}
+#process_13{background-image: url("../img/yg_process_13.jpg");}

@@ -1,0 +1,11 @@
+/* acg_process.css */
+body,html{width: 100%; height: 100%;}
+#wrap{width: 100%; height: 100%; background-color: #acd;}
+.bgi{background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain; 
+     width: 100%; height: 100%; background-color: #F0F2F4; border-top: 2px solid #F0F2F4;}
+#process_01{border-top:0; background-image: url("../img/acg_process_01.jpg");}
+#process_02{background-image: url("../img/acg_process_02.jpg");}
+#process_03{background-image: url("../img/acg_process_03.jpg");}
+#process_04{background-image: url("../img/acg_process_04.jpg");}
