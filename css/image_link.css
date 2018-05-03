@@ -1,0 +1,15 @@
+/* image_link.css */
+#wrap{width: 100%; height: auto;}
+.high_cut{width: 1000px; height: auto; margin: 0 auto;}
+.high_cut:after{content:" "; display:block; width:100%; height:0; clear:both;}
+.high_cut>li{float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;}
+.high_cut>li:nth-child(1){width: 400px; height: 600px; background-image: url("../img/img_link/1.jpg");}
+.high_cut>li:nth-child(2){width: 600px; height: 420px; background-image: url("../img/img_link/2.jpg")}
+.high_cut>li:nth-child(3){width: 600px; height: 900px; float: right; background-image: url("../img/img_link/4.jpg")}
+.high_cut>li:nth-child(4){width: 400px; height: 720px; background-image: url("../img/img_link/3.jpg")}
+.high_cut>li:nth-child(5){width: 1000px; height: 660px; background-image: url("../img/img_link/6.jpg")}
+.high_cut>li>span{display: block; overflow: hidden; position: absolute; z-index: -1; width: 0; height: 0;}
+.link_text{width: 1000px; height: 300px; padding: 1rem; box-sizing: border-box; margin: 0 auto; font-size: 2rem;}
