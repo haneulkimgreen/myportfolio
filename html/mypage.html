@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- fontAwesome -->
     <link rel="stylesheet" href="../fontAwesome/css/font-awesome.css">
+    <!-- <link href="//fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet"> -->
     <!-- css Reset and globalClass -->
     <link rel="stylesheet" href="../css/base/reset.css">
     <link rel="stylesheet" href="../css/base/common.css">
@@ -16,84 +17,50 @@
     <!-- faviconFile -->
     <!-- <link rel="apple-touch-icon" href="../mypage_favicon.ico"> -->
     <!-- <link rel="shortcut icon" href="../mypage_favicon.ico" type="image/x-icon"> -->
-  <title>kimhaneulportfolio</title>
+  <title>KIMHANEUL</title>
 
 </head>
 <body>
 <div id="wrap">
-  <div id="issueContainer" class="scroll_view">
-    <div class="issue_wrap">
-      <div class="pofo"></div>
-      <div class="issue_menu">
-        <a href="#resume">INFOGRAPHIC RESUME</a>
-        <a href="#acg">ACG</a>
-        <a href="#yg">YG ENTERTAINMENT</a>
-      </div>
-    </div>
-  </div> <!-- //issueContainer -->
-  <div id="resume" class="scroll_view">
-    <h2>이력서</h2>
-  </div> <!-- //resume -->
-  <div id="acg" class="scroll_view">
-    <div class="acg_text">
-      <p class="acg_title">ACG</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quasi earum unde modi animi ea harum sapiente expedita sed! Pariatur quae hic doloremque nisi eum, harum illo voluptatem odio quidem.</p>
-    </div>
-    <div class="acg_list">
-      <ul>
-        <li><a href="#acg_guide" class="acg_guide_btn">가이드라인</a></li>
-        <li><a href="#acg_code" class="acg_code_btn">코드 보기</a></li>
-        <li><a href="https://haneulkimgreen.github.io/web/" target="_blank">사이트 이동</a></li>
+  <header id="headBox">
+    <h1><a href="./mypage.html">KIMHANEUL Portfolio</a></h1>
+    <div class="tab_menu">
+      <h2>탭메뉴</h2>
+      <button type="button" class="tab_btn"></button>
+      <ul class="tab_list">
+        <li><a href="#">YG Entertainment</a></li>
+        <li><a href="#">ACG</a></li>
+        <li><a href="#">RESUME</a></li>
       </ul>
     </div>
-    <div id="acg_guide">acg_guide
-      <div class="acg_guide_close">
-        <button>
-          <span>취소버튼</span>
-        </button>
-      </div> <!-- //acg_guide_close -->
-    </div> <!-- //acg_guide -->
-    <div id="acg_code">acg_code
-      <div class="acg_code_close">
-        <button>
-          <span>취소버튼</span>
-        </button>
-      </div> <!-- //acg_code_close -->
-    </div> <!-- //acg_code -->
-  </div> <!-- //acg -->
-  <div id="yg" class="scroll_view">
-    <div class="yg_text">
-      <p class="yg_title">YG ENTERTAINMENT</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quasi earum unde modi animi ea harum sapiente expedita sed! Pariatur quae hic doloremque nisi eum, harum illo voluptatem odio quidem.</p>
-    </div>
-    <div class="yg_list">
+  </header>
+  <div id="main_wrap">
+    <h2>main_wrap</h2>
+    <div class="nav_wrap">
       <ul>
-        <li><a href="#yg_guide" class="yg_guide_btn">가이드라인</a></li>
-        <li><a href="#yg_code" class="yg_code_btn">코드 보기</a></li>
-        <li><a href="#">사이트 이동</a></li>
+        <li><a href="#">YG Entertainment</a></li>
+        <li><a href="#">ACG</a></li>
+        <li><a href="#">RESUME</a></li>
       </ul>
     </div>
-    <div id="yg_guide">yg_guide
-      <div class="yg_guide_close">
-        <button>
-          <span>취소버튼</span>
-        </button>
-      </div> <!-- //acg_guide_close -->
-    </div> <!-- //acg_guide -->
-    <div id="yg_code">yg_code
-      <div class="yg_code_close">
-        <button>
-          <span>취소버튼</span>
-        </button>
-      </div> <!-- //acg_code_close -->
-    </div> <!-- //acg_code -->
-  </div> <!-- //yg -->
+    
+  </div>
+  <div id="yg_wrap">
+    
+  </div>
+  <div id="acg_wrap">
+    
+  </div>
+  <div id="resume_wrap">
+    
+  </div>
 </div>
     <!-- script -->
     <script src="../js/base/jquery-3.2.1.js"></script>
     <script src="../js/base/jquery-ui.js"></script>
     <!-- use script(jQuery) -->
     <script src="../js/src/mypage.js"></script>
+    <script src="../js/src/popup.js"></script>
     
 </body>
 </html>
