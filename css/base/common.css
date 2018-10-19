@@ -3,8 +3,10 @@
 .clearfix::after{content:" "; display:block; width:100%; height:0; clear:both;}
 
 .hidden_wrap a>span,
-.hidden{display:block; width:0; height:0; position:absolute; z-index:-100; overflow:hidden;}
+.hidden{display: block; overflow: hidden; position: absolute; z-index: -1; width: 0; height: 0;}
 .hidden_wrap a{display:block; width:100%; height:100%;}
+
+.backimg{background-repeat: no-repeat; background-position: center; background-size: cover;}
 
 #wrap ul>.first,
 #wrap ol>.first{margin-left:0; border-left:0;}

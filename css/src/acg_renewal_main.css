@@ -1,0 +1,164 @@
+/* acg_renewal_main.css */
+body,html{width: 100%; height: 100%;}
+
+#wrap{width: 100%; height: auto; min-height: 500px; background-color: #fff;}
+#headBox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.home_link{
+  float: left;
+  line-height: 40px;
+  color: #4923f4;
+  font-weight: bold;
+}
+.home_link:hover,
+.home_link:active,
+.home_link:focus{
+  color: #000;
+}
+.home_link a{
+  display: inline-block;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.gnb{
+  float: right;
+  height: 100%;
+}
+.gnb ul{
+  height: 100%;
+}
+.gnb ul li{
+  float: left;
+  height: 100%;
+  margin-right: 30px;
+  line-height: 40px;
+}
+.gnb ul li:nth-child(2){
+  margin-right: 0;
+}
+.gnb ul li:hover,
+.gnb ul li:active,
+.gnb ul li:focus{
+  color: #4923f4;
+}
+/* //메인 페이지만 */
+.gnb ul li a{
+  display: inline-block;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+/* //header */
+/* topImg */
+#topImg{
+  width: 100%;
+  height: 80%;
+  min-height: 800px;
+  background-color: #ddd;
+  /*background-image: url(../../img/404.png);*/
+}
+/* //topImg */
+/* contentWrap */
+#contentWrap{
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+}
+.intro_wrap{
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+}
+.intro{
+  width: 1000px;
+  height: 100%;
+  background-color: #ddd;
+  margin: 0 auto;
+}
+.list_Wrap{
+  width: 100%;
+  height: auto;
+}
+.work_list{
+  float: left;
+  width: 50%;
+  height: 40vw;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.work_list a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+}
+.padding_leftz{
+  padding-left: 0;
+}
+.padding_rightz{
+  padding-right: 0;
+}
+.publ:hover:before,
+.BI:hover:before,
+.UX:hover:before,
+.print:hover:before{
+  display:block;
+  width:100%;
+  height:100%;
+  background-color: rgba(255,255,255,.5);
+  clear:both;
+  color: #4923f4;
+  font-size: 50px;
+  text-align: center;
+  line-height: calc(40vw - 100px);
+  font-weight: bold;
+}
+.publ:hover:before{
+  content: "퍼블리싱";
+}
+.BI:hover:before{
+  content: "BI";
+}
+.UX:hover:before{
+  content: "UX";
+}
+.print:hover:before{
+  content: "홍보물";
+}
+.foot_nav{
+
+}
+.foot_nav a{
+
+}
+.foot_nav a span{
+
+}
+/* //contentWrap */
+/* footer */
+#footBox{
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #4923f4;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+.info_wrap{
+  width: 300px;
+  margin: 0 auto;
+}
+.info_wrap p{
+  height: 36px;
+  line-height: 36px;
+  font-size: 20px;
+  text-align: center;
+  color: #4923f4;
+  }
+/* //footer */
