@@ -1,0 +1,34 @@
+/* acg_publishing.css */
+body,html{width: 100%; height: 100%;}
+
+#wrap{width: 100%; height: auto; min-height: 500px; background-color: #fff;}
+#content{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+#content dl{
+  text-indent: 100px;
+}
+#content dl dt{
+  font-size: 30px;
+  font-weight: bold;
+}
+#content dl dd{
+  margin-top: 26px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.close{
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255,255,255,0);
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  margin-left: 600px;
+  font-size: 40px;
+  color: #232323;
+}

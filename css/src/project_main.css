@@ -1,0 +1,279 @@
+/* project_main.css */
+body,html{width: 100%; height: 100%;}
+
+#wrap{width: 100%; height: auto; min-height: 500px; background-color: #fff;}
+#headBox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  font-size: 16px;
+  background-color: #fff;
+}
+.headBox_wrap{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.headBox_wrap a{
+  display: inline-block;
+}
+.home_link{
+  float: left;
+  margin-top: 20px;
+  line-height: 40px;
+  color: #4923f4;
+  font-weight: bold;
+  transition: all 500ms ease;
+}
+.home_link:hover,
+.home_link:active,
+.home_link:focus{
+  color: #232323;
+}
+.gnb{
+  float: right;
+  height: 100%;
+}
+.gnb ul{
+  height: 100%;
+}
+.gnb ul li{
+  float: left;
+  height: 100%;
+  margin-right: 30px;
+}
+.gnb ul li:nth-child(2){
+  margin-right: 0;
+}
+.gnb ul li a{
+  margin-top: 20px;
+  color: #232323;
+  line-height: 40px;
+  transition: all 500ms ease;
+}
+.gnb ul li a:hover,
+.gnb ul li a:active,
+.gnb ul li a:focus{
+  color: #4923f4;
+}
+/* //header */
+/* topImg */
+#topImg{
+  margin-top: 80px;
+  width: 100%;
+  height: 675px;
+}
+.mockup{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+/* //topImg */
+/* contentWrap */
+#contentWrap{
+  width: 100%;
+  height: auto;
+}
+.intro{
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.intro_wrap{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.project_name{
+  font-family: NanumGothic, 나눔고딕;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+.intro_wrap dl{
+  font-size: 16px;
+  font-family: NanumGothic, 나눔고딕;
+}
+.intro_wrap dl dt{
+  float: left;
+  width: 200px;
+  margin-right: 200px;
+  margin-top: 20px
+}
+.intro_wrap dl dd{
+  float: left;
+  width: 800px;
+  margin-top: 20px;
+}
+/*.intro_wrap dl dd a{}*/
+.intro_wrap dl dd span{
+  margin-right: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #eee;
+  color: #555;
+  font-weight: bold;
+}
+.intro_wrap dl dd span:nth-last-child(1){
+  margin-right: 0;
+}
+/* //intro_wrap */
+.list_Wrap{
+  width: 100%;
+  height: auto;
+}
+.work_list{
+  overflow: hidden;
+  float: left;
+  width: 50%;
+  height: calc(37.5vw + 25px);
+  padding: 50px;
+  box-sizing: border-box;
+}
+.work_list a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+}
+/* //contentWrap */
+/* footer */
+#footBox{
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #4923f4;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+.info_wrap{
+  width: 300px;
+  margin: 0 auto;
+}
+.info_wrap p{
+  height: 36px;
+  line-height: 36px;
+  font-size: 20px;
+  text-align: center;
+  color: #4923f4;
+  }
+/* //footer */
+/* 프로젝트 이름으로 바꿔야 하는 css */
+/* 상단 이미지 */
+.acg_topImg{
+  background-color: #d3dde5;
+}
+.yg_topImg{
+  background-color: #d1000a;
+}
+.dako_topImg{
+  background-color: #E9E8FF;
+}
+.acg_top_mockup{
+  background-image: url(../../img/acg/design/acg_mockup.png);
+  background-size: 75%;
+}
+
+.yg_top_mockup{
+  background-image: url(../../img/yg/mockup/yg_mockup_01.png);
+  background-size: 75%;
+}
+@keyframes yg_mockup{
+  0%{background-image: url(../../img/yg/mockup/yg_mockup_01.png);}
+  20%{background-image: url(../../img/yg/mockup/yg_mockup_01.png);}
+  40%{background-image: url(../../img/yg/mockup/yg_mockup_02.png);}
+  60%{background-image: url(../../img/yg/mockup/yg_mockup_03.png);}
+  80%{background-image: url(../../img/yg/mockup/yg_mockup_04.png);}
+  100%{background-image: url(../../img/yg/mockup/yg_mockup_05.png);}
+}
+.yg_top_mockup{animation: yg_mockup 10s infinite normal;}
+
+.dako_top_mockup{
+  background-image: url(../../img/datakobold/publishing/dako_mockup.png);
+  background-size: 75%;
+}
+/* 포지션 */
+.acg_design{
+  background-image: url(../../img/acg/design/acg_design.jpg);
+}
+.acg_publishing{
+  background-image: url(../../img/acg/publishing/acg_publ.jpg);
+}
+.yg_sketch{
+  background-image: url(../../img/acg/design/acg_design.jpg);
+}
+.yg_prototyping{
+  background-image: url(../../img/yg/proto/yg_proto_01.png);
+  background-position: top center;
+}
+.work_list .yg_publishing{
+  background-image: url(../../img/yg/publishing/yg_publ_01.png);
+  background-size: contain;
+  background-color: #F6A7BA;
+}
+.work_list .dako_publishing{
+  background-image: url(../../img/datakobold/publishing/dako_mockup.png);
+  background-color: #E9E8FF;
+}
+.dako_branding{
+  background-image: url(../../img/datakobold/branding/dako_branding_02.png);
+}
+.work_list .dako_ux{
+  background-image: url(../../img/datakobold/ux/dako_ux_01_re.png);
+  background-size: contain;
+  background-color: #E1EAEF;
+}
+
+.acg_design:hover:before,
+.acg_publishing:hover:before,
+.yg_sketch:hover:before,
+.yg_prototyping:hover:before,
+.yg_publishing:hover:before,
+.dako_publishing:hover:before,
+.dako_branding:hover:before,
+.dako_ux:hover:before{
+  display:block;
+  width:100%;
+  height:100%;
+  background-color: rgba(255,255,255,.7);
+  clear:both;
+  color: #4923f4;
+  font-family: NanumGothic, 나눔고딕;
+  font-size: 50px;
+  text-align: center;
+  line-height: calc(37.5vw - 75px);
+  font-weight: bold;
+}
+.acg_design:hover:before{
+  content: "Design";
+}
+.acg_publishing:hover:before{
+  content: "Publishing";
+}
+.yg_sketch:hover:before{
+  content: "Sketch";
+  color: #d1000a;
+}
+.yg_prototyping:hover:before{
+  content: "Prototyping";
+  color: #d1000a;
+}
+.yg_publishing:hover:before{
+  content: "Design, Publishing";
+  color: #d1000a;
+}
+.dako_publishing:hover:before{
+  content: "Publishing";
+  color: #7060A5;
+}
+.dako_branding:hover:before{
+  content: "Branding";
+  color: #7060A5;
+}
+.dako_ux:hover:before{
+  content: "UX, Design";
+  color: #7060A5;
+}
