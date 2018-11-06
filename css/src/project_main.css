@@ -223,7 +223,7 @@ body,html{width: 100%; height: 100%;}
 }
 .work_list .dako_ux{
   background-image: url(../../img/datakobold/ux/dako_ux_01_re.png);
-  background-size: contain;
+  background-size: 80%;
   background-color: #E1EAEF;
 }
 
